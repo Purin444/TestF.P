@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         // บันทึก Token และ User ID ลงใน localStorage
                         localStorage.setItem("authToken", data.token); // Save Token
                         localStorage.setItem("loggedInUserId", data.userId); // Save User ID
-                        window.location.href = "http://127.0.0.1:5500/frontend/html/dashboard.html";
+                        window.location.href = "http://127.0.0.1:5500/frontend/html/index.html";
                     }
                 } else {
                     showAlert(data.error || "An error occurred.");
